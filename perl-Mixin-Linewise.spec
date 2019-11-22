@@ -4,7 +4,7 @@
 #
 Name     : perl-Mixin-Linewise
 Version  : 0.108
-Release  : 1
+Release  : 2
 URL      : https://cpan.metacpan.org/authors/id/R/RJ/RJBS/Mixin-Linewise-0.108.tar.gz
 Source0  : https://cpan.metacpan.org/authors/id/R/RJ/RJBS/Mixin-Linewise-0.108.tar.gz
 Summary  : 'write your linewise code for handles; this does the rest'
@@ -12,6 +12,7 @@ Group    : Development/Tools
 License  : Artistic-1.0 Artistic-1.0-Perl GPL-1.0
 Requires: perl-Mixin-Linewise-license = %{version}-%{release}
 Requires: perl-Mixin-Linewise-perl = %{version}-%{release}
+Requires: perl(PerlIO::utf8_strict)
 BuildRequires : buildreq-cpan
 BuildRequires : perl(Data::OptList)
 BuildRequires : perl(Params::Util)
