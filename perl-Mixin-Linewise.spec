@@ -4,7 +4,7 @@
 #
 Name     : perl-Mixin-Linewise
 Version  : 0.108
-Release  : 2
+Release  : 3
 URL      : https://cpan.metacpan.org/authors/id/R/RJ/RJBS/Mixin-Linewise-0.108.tar.gz
 Source0  : https://cpan.metacpan.org/authors/id/R/RJ/RJBS/Mixin-Linewise-0.108.tar.gz
 Summary  : 'write your linewise code for handles; this does the rest'
@@ -105,6 +105,6 @@ find %{buildroot} -type f -name '*.bs' -empty -exec rm -f {} ';'
 
 %files perl
 %defattr(-,root,root,-)
-/usr/lib/perl5/vendor_perl/5.28.2/Mixin/Linewise.pm
-/usr/lib/perl5/vendor_perl/5.28.2/Mixin/Linewise/Readers.pm
-/usr/lib/perl5/vendor_perl/5.28.2/Mixin/Linewise/Writers.pm
+/usr/lib/perl5/vendor_perl/5.30.1/Mixin/Linewise.pm
+/usr/lib/perl5/vendor_perl/5.30.1/Mixin/Linewise/Readers.pm
+/usr/lib/perl5/vendor_perl/5.30.1/Mixin/Linewise/Writers.pm
