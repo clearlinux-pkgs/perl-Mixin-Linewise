@@ -4,7 +4,7 @@
 #
 Name     : perl-Mixin-Linewise
 Version  : 0.108
-Release  : 6
+Release  : 7
 URL      : https://cpan.metacpan.org/authors/id/R/RJ/RJBS/Mixin-Linewise-0.108.tar.gz
 Source0  : https://cpan.metacpan.org/authors/id/R/RJ/RJBS/Mixin-Linewise-0.108.tar.gz
 Summary  : 'write your linewise code for handles; this does the rest'
